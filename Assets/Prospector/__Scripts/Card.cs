@@ -86,15 +86,7 @@ public class Card : MonoBehaviour {
 	}
 
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 } // class Card
 
 [System.Serializable]
