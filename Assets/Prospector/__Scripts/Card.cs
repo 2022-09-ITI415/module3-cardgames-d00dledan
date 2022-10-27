@@ -75,17 +75,22 @@ public class Card : MonoBehaviour {
 
 
 
-    public bool faceUp {
-		get {
-			return (!back.activeSelf);
-		}
+    public bool faceUp
+    {
+        get
+        {
+            return (!back.activeSelf);
+        }
 
-		set {
-			back.SetActive(!value);
-		}
-	}
-
-
+        set
+        {
+            back.SetActive(!value);
+        }
+    }
+        virtual public void OnMouseUpAsButton() {
+        print(name);
+    
+   }
 
 } // class Card
 
