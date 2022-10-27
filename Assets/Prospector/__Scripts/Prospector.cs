@@ -94,11 +94,13 @@ public class Prospector : MonoBehaviour {
             cp.SetSortingLayerName(tSD.layerName);
             tableau.Add(cp); // Add this CardProspector to the List<> tableau     
         }
+    
 
+        
         MoveToTarget(Draw());
         UpdateDrawPile();
     }
-
+    //START HERE PAGE 682
     void MoveToDiscard(CardProspector cd)
     {
         // Set the state of the card to discard 
