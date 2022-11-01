@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 [System.Serializable] // This makes SlotDefs visible in the Unity Inspector pane 
+
 public class SlotDef
 {
     public float x;
@@ -62,6 +64,8 @@ public class Layout : MonoBehaviour
             // This converts the number of the layerID into a text layerName     
             tSD.layerName = sortingLayerNames[tSD.layerID];              // a
 
+
+
             switch (tSD.type)
             {
                 // pull additional attributes based on the type of this <slot> 
@@ -89,8 +93,12 @@ public class Layout : MonoBehaviour
         }
     }
 }
-    
 
-        
+
+
+
+
+
+
 
 
