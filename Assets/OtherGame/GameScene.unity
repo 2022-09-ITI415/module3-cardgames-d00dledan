@@ -185,7 +185,7 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_PVRTiledBaking: 0
---- !u!1001 &153138042
+--- !u!1001 &426225768
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -250,7 +250,7 @@ PrefabInstance:
     - target: {fileID: 974177628953908479, guid: e52cc44c42e4ee249b8e76a2fbdd0a0b,
         type: 3}
       propertyPath: m_Name
-      value: ProspectorBackground (1)
+      value: ProspectorBackground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e52cc44c42e4ee249b8e76a2fbdd0a0b, type: 3}
